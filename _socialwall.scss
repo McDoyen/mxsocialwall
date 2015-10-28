@@ -1,0 +1,104 @@
+.socialwall_comments_list .mx-listview-empty {
+	display:none;
+}
+
+
+.socialwall_comments_list .mx-listview-item  {
+	background-color:#eeeeee;
+	margin:5px;
+	padding:5px;
+}
+
+.socialwall_comments_list .mx-listview-item:nth-child(2n+1) {
+	background-color:#eeeeee;
+	margin:5px;
+	padding:5px;
+}
+
+.post_header label{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.post_image img{
+	padding-right:8px;	
+	margin-top:8px;
+}
+
+.post_image li {
+	display: inline-table;
+	border:0px !important;
+}
+
+.post_image .mx-list > li {
+	border:0px;
+}
+
+.post_image .listview-lined.mx-listview .mx-listview-item, .mx-listview.multilevel-list .mx-listview-item {
+	border:0px;
+}
+
+
+.post_image .mx-listview-empty {
+	display:none;
+}
+
+.social_small_font {
+	font-size:10px;
+	display:inline-table;
+	margin-right:8px;
+}
+
+.social_small_font label {
+	font-size:10px;
+	vertical-align: middle;
+	margin-right:8px;
+	display:inline-table;
+}
+
+.attachment_label {
+	font-weight:bold;
+	margin-right:8px;
+}
+
+
+.post_attachment .mx-list > li {
+	border:0px;
+}
+
+.post_attachment .mx-listview-empty{
+ display:none;
+}
+
+.post_attachment .listview-lined.mx-listview .mx-listview-item, .mx-listview.multilevel-list .mx-listview-item {
+	border:0px;
+}
+
+.listview-lined.mx-listview .mx-listview-item:last-child, .mx-listview.multilevel-list .mx-listview-item:last-child {
+	border:0px;
+}
+
+.socialwall_comments_list .mx-grid, .mx-tabcontainer, .mx-listview, .mx-templategrid, .mx-groupbox {
+	margin-bottom:0px;
+}
+
+
+table.mx-table > tbody > tr > td > div > label,
+table.mx-table > tbody > tr > td .mx-referenceselector-input-wrapper label {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.mx-list table.mx-table > tbody > tr > th,
+.mx-list table.mx-table > tbody > tr > td {
+  padding: 0px 8px 0px 0px;
+}
+
+.post_footer table.mx-table > tbody > tr > td{
+	vertical-align:bottom;
+}
+
+.like_icon_small {
+	display:inline-table;
+	margin-right:8px;
+}
